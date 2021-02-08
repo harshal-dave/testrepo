@@ -4,12 +4,12 @@
 void main()
 {
   	char str[100],rev[100];
-  	int i,j,len;
+  	int i,j,length;
    	printf("\n Please Enter any String :  ");
   	gets(str);
    	j=0;
-  	len=strlen(str); 
-  	for(i=len-1;i>=0;i--)
+  	length=strlen(str); 
+  	for(i=length-1;i>=0;i--)
   	{
   		rev[j++]=str[i];
   	}
